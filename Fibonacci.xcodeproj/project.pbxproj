@@ -13,6 +13,7 @@
 		B863391C1A93D105006C9342 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B863391B1A93D105006C9342 /* Images.xcassets */; };
 		B863391F1A93D105006C9342 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B863391D1A93D105006C9342 /* LaunchScreen.xib */; };
 		B863392B1A93D105006C9342 /* FibonacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863392A1A93D105006C9342 /* FibonacciTests.swift */; };
+		B86339351A93D2C0006C9342 /* FibonacciSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86339341A93D2C0006C9342 /* FibonacciSequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B86339241A93D105006C9342 /* FibonacciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86339291A93D105006C9342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B863392A1A93D105006C9342 /* FibonacciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciTests.swift; sourceTree = "<group>"; };
+		B86339341A93D2C0006C9342 /* FibonacciSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciSequence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				B86339141A93D105006C9342 /* AppDelegate.swift */,
+				B86339341A93D2C0006C9342 /* FibonacciSequence.swift */,
 				B86339161A93D105006C9342 /* ViewController.swift */,
 				B86339181A93D105006C9342 /* Main.storyboard */,
 				B863391B1A93D105006C9342 /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86339351A93D2C0006C9342 /* FibonacciSequence.swift in Sources */,
 				B86339171A93D105006C9342 /* ViewController.swift in Sources */,
 				B86339151A93D105006C9342 /* AppDelegate.swift in Sources */,
 			);
